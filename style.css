@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "sans-serif";
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(./Hè.jpg) no-repeat center;
+}
+
+.weather {
+    width: 350px;
+    border-radius: 15px;
+    padding: 30px 20px;
+    background-color: rgb(65, 148, 220);
+    background: url(./Hè.jpg) no-repeat center/cover;
+    border: 1px solid rgba(255, 255, 225, 0.6);
+}
+
+.search {
+    width: 100%;
+    overflow: none;
+    border: none;
+    box-shadow: 0 2px 2px #c1bfbf;
+    height: 40px;
+    border-radius: 0 15px 0 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: all .5s;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 225, 0.6);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.search:focus {
+    outline: none;
+    border-radius: 15px 0 15px 0;
+    background-color: #fff
+}
+
+.view__content {
+    text-align: center;
+    color: rgb(248 0 0);
+    margin: 35px 0px;
+    transition: .4s;
+}
+
+.capital {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.time {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.temperature {
+    font-size: 55px;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    margin: 0 30px;
+    padding: 20px;
+    background: rgba(255, 255, 225, 0.7);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    border: none;
+}
+
+.short-description {
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+}
+
+.more-description {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 15px;
+    font-size: 25px;
+}
+
+.wind {
+    display: flex;
+    flex-direction: column;
+}
+
+.wind-infor,
+.humidity-infor {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.wind-infor {
+    margin-top: 14px;
+}

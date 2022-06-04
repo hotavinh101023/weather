@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>weather</title>
+</head>
+
+<body>
+    <div class="weather">
+        <input type="text" class="search" placeholder="Search" />
+        <div class="view__content">
+            <h1 class="capital">
+                <span class="city">Hanoi</span>
+                <span>,</span>
+                <span class="country">VN</span>
+            </h1>
+
+            <div class="time">
+                <span class="day">5/6/2022</span>
+                <span>,</span>
+                <span class="hour">10:10:10</span>
+                <span>AM</span>
+            </div>
+
+            <div class="temperature">
+                <span class="value"></span>
+                <sup>o</sup><span>C</span>
+            </div>
+
+            <div class="short-description"></div>
+
+            <div class="more-description">
+                <div class="wind">
+                    <i class="fas fa-wind"></i>
+                    <div class="wind-infor">
+                        <span class="wind-value"></span>
+                        <span>m/s</span>
+                    </div>
+                </div>
+                <div class="humidity">
+                    <i class="fas fa-cloud-showers-heavy"></i>
+                    <div class="humidity-infor">
+                        <span class="humidity-value"></span>
+                        <span>%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
